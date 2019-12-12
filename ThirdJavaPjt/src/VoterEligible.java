@@ -13,17 +13,16 @@ public class VoterEligible {
 
 		checkeligibility(1);
 
+	}
 
-}
 	public static void checkeligibility(int voter) {
 
-if (voter>=18) {
-	System.out.println("eligible");
-	
-}else {
-	System.out.println("not eligible");
-}
+		if (voter >= 18) {
+			System.out.println("eligible");
+
+		} else {
+			System.out.println("not eligible");
+		}
 
 	}
 }
-	

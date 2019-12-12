@@ -1,22 +1,17 @@
 
-
 public class EvenOdd {
-	
-	public static void main (String[] args) {
-			
-	
-	int a=21;
-	 
-	 
-	 
-if (a%2==0){
-	System.out.println("even");
 
-}
-else {
+	public static void main(String[] args) {
 
-	System.out.println("odd");
-	
-}
-}
+		int a = 21;
+
+		if (a % 2 == 0) {
+			System.out.println("even");
+
+		} else {
+
+			System.out.println("odd");
+
+		}
+	}
 }
